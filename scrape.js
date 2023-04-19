@@ -30,6 +30,7 @@ async function scrape() {
     currency.name= `Bitcoin (BTN)`
     currency.address = url
     
+    
     if(priceNum < 5000) {
             // Use Twilio API to send a SMS notification when price is below $5,000
         client.messages.create ( {
